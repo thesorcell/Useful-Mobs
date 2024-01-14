@@ -1,5 +1,5 @@
 ## PIGS
-execute as @e[type=pig,nbt={Age:-24000}] at @s run summon pig ~ ~ ~ {Age:-23999}
+execute as @e[type=pig,nbt={Age:-24000}] at @s run function usefulmobs:spawnbabypig
 
 ## BATS
 # Store item count values for berry consumption
