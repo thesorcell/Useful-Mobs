@@ -1,6 +1,10 @@
 {
-    "pack": {
-        "pack_format": 10,
-        "description": "Useful Mobs 1.1.0\nby Sorcell"
-    }
+  "pack": {
+    "pack_format": 26,
+    "supported_formats": {
+      "min_inclusive": 1,
+      "max_inclusive": 30
+    },
+    "description": "New functions for forgotten mobs - By Sorcell"
+  }
 }
