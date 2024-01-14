@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_berries",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "Enemy Spotted"
+    },
+    "description": {
+      "text": "Find a nearby mob by feeding glow berries to a bat"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "feed_bat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
