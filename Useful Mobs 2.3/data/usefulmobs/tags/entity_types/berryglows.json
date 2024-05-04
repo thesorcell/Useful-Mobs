@@ -9,6 +9,7 @@
         "minecraft:cave_spider",
         "minecraft:creeper",
         "minecraft:witch",
-        "minecraft:enderman"
+        "minecraft:enderman",
+	"minecraft:bogged"
     ]
 }

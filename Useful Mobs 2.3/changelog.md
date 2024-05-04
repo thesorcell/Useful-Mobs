@@ -1,3 +1,16 @@
+# v2.3
+## Features
+Polar Bears grant strength to nearby players when fed salmon
+Feeding a polar bear grants the "Bear Down" advancement
+
+## Tweaks
+"Enemy Spotted" advancement moved to husbandry tab, previously in adventure
+Bogged can now be highlighted when a bat is fed glow berries
+
+## Project
+Updated to 1.20.5+
+No longer compatible with versions below 1.20.5 due to item component changes
+
 # v2.2
 ## Bugs
 Fixed baby pig duplication bug

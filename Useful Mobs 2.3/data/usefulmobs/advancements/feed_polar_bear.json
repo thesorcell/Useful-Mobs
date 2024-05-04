@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": "Bear Down",
+    "description": "Gain strength by tossing salmon to a polar bear",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "usefulmobs:feed_bat",
+  "criteria": {
+    "feed_bat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
