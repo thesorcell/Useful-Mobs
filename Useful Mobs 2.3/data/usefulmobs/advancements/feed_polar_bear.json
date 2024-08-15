@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:salmon"
     },
-    "title": "Bear Down",
-    "description": "Gain strength by tossing salmon to a polar bear",
+    "title": {
+      "translate": "advancements.usefulmobs.feed_polar_bear.title",
+      "fallback": "Bear Down"
+    },
+    "description": {
+      "translate": "advancements.usefulmobs.feed_polar_bear.descr",
+      "fallback": "Gain strength by tossing salmon to a polar bear"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

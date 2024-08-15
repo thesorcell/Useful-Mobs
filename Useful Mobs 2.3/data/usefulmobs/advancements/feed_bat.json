@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:glow_berries"
     },
-    "title": "Enemy Spotted",
-    "description": "Find a nearby mob by tossing glow berries to a bat",
+    "title": {
+      "translate": "advancements.usefulmobs.feed_bat.title",
+      "fallback": "Enemy Spotted"
+    },
+    "description": {
+      "translate": "advancements.usefulmobs.feed_bat.descr",
+      "fallback": "Find a nearby mob by tossing glow berries to a bat"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
