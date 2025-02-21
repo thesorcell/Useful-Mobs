@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "advancements.usefulmobs.feed_bat.title",
+      "fallback": "Enemy Spotted"
+    },
+    "description": {
+      "translate": "advancements.usefulmobs.feed_bat.descr",
+      "fallback": "Find a nearby mob by tossing glow berries to a bat"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "usefulmobs:feed_pig",
+  "criteria": {
+    "feed_bat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
